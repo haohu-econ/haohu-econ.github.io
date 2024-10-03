@@ -1,7 +1,55 @@
-h2 {
-    color: red;
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 17px;
 }
-p {
-    color: blue;
-    font-size: 27px;
+
+header {
+    background-color: #1a5263d8;
+    border: 0 white solid;
+    padding: 3px 0;
+    margin: 7px 0;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    font-size: 40px;
+    margin: 17px 0;
+}
+header ul {
+    list-style-type: none;
+    margin: 17px 0;
+    padding: 0;
+}
+header li {
+    display: inline;
+    margin-right: 4vw;
+}
+header a {
+    color: white;
+    text-decoration: none;
+}
+header a:hover {
+    text-decoration: underline;
+    color:bisque;
+}
+
+
+body {
+    font-family: Serif, serif;
+    background-color: #cdddf1;
+    color: #0f0814;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #0a2025;
+    border: 0;
+    padding: 7px 0;
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-size: 14px;
 }
