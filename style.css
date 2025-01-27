@@ -49,7 +49,9 @@ body {
     color: #0f0814;
     margin: 0;
     padding: 0;
-    line-height: 1.6; 
+    line-height: 1.6;
+    margin-left: calc(10% - 50px); 
+    margin-right: calc(10% - 50px);
 }
 
 img {
