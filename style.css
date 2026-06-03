@@ -1,0 +1,118 @@
+/* Hao Hu — personal site. Minimal, text-first. */
+
+:root {
+  --ink: #1a1a1a;
+  --muted: #777;
+  --link: #1457b0;
+  --rule: #e6e6e6;
+  --maxw: 680px;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  color: var(--ink);
+  background: #fff;
+  font-family: Georgia, "Times New Roman", "Songti SC", serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+main {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 4.5rem 1.25rem 3.5rem;
+}
+
+/* ---- header ---- */
+.intro {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-bottom: 2.2rem;
+}
+
+.headshot {
+  width: 185px;
+  height: 185px;
+  object-fit: cover;
+  border-radius: 4px;
+  flex: 0 0 auto;
+  background: #f2f2f2;
+}
+
+.intro-text h1 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin: 0 0 .2rem;
+  letter-spacing: .2px;
+}
+
+.title {
+  margin: 0 0 .2rem;
+  line-height: 1.4;
+}
+
+.pronounce {
+  margin: 0 0 .6rem;
+  color: var(--muted);
+  font-size: .9rem;
+  font-style: italic;
+}
+
+.links {
+  margin: 0;
+  font-size: .95rem;
+}
+
+/* ---- sections ---- */
+section { margin: 2rem 0; }
+
+section p:first-child { margin-top: 0; }
+
+h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 0 0 .6rem;
+  padding-bottom: .25rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+ul.papers, ul.interests {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+ul.papers li, ul.interests li { margin: .35rem 0; }
+
+.inst { margin: .9rem 0 .25rem; }
+
+.muted { color: var(--muted); }
+
+/* ---- links ---- */
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* ---- footer ---- */
+footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--rule);
+  font-size: .85rem;
+}
+footer p { margin: 0; }
+
+/* ---- mobile ---- */
+@media (max-width: 540px) {
+  body { font-size: 15.5px; }
+  main { padding: 2.5rem 1.1rem; }
+  .intro {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  .headshot { width: 150px; height: 150px; }
+}
