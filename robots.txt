@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hao-hu.com/sitemap.xml
