@@ -56,11 +56,9 @@ main {
   line-height: 1.4;
 }
 
-.pronounce {
+.email {
   margin: 0 0 .6rem;
-  color: var(--muted);
-  font-size: .9rem;
-  font-style: italic;
+  font-size: .95rem;
 }
 
 .links {
